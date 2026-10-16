@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-dusk-950 text-dusk-100 antialiased;
+}
+
+::selection {
+	@apply bg-brand-500/70 text-dusk-950;
+}
+
+/* Nebelschleier über dem Fleet – dezent wabernder Hintergrund im Hero */
+@keyframes brook-fog-drift {
+	0% { transform: translateX(-4%) translateY(0); }
+	50% { transform: translateX(3%) translateY(-2%); }
+	100% { transform: translateX(-4%) translateY(0); }
+}
+
+.brook-fog {
+	animation: brook-fog-drift 22s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.brook-fog {
+		animation: none;
+	}
+}
