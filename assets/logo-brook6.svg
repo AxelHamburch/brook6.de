@@ -2,15 +2,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160">
   <!-- Dämmer-Hintergrund des Icon-Badges -->
   <rect x="8" y="8" width="144" height="144" rx="28" fill="#17130f"/>
-  <!-- Fleet-Welle -->
-  <path d="M20 110 Q 50 94 80 110 T 140 110" stroke="#4f8396" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
   <!-- Klinkerreihe -->
   <g fill="#9c3c30">
-    <rect x="22" y="123" width="27" height="14" rx="2"/>
-    <rect x="53" y="123" width="27" height="14" rx="2"/>
-    <rect x="84" y="123" width="27" height="14" rx="2"/>
-    <rect x="115" y="123" width="19" height="14" rx="2"/>
+    <rect x="22" y="105" width="27" height="14" rx="2"/>
+    <rect x="53" y="105" width="27" height="14" rx="2"/>
+    <rect x="84" y="105" width="27" height="14" rx="2"/>
+    <rect x="115" y="105" width="19" height="14" rx="2"/>
   </g>
+  <!-- Fleet-Welle -->
+  <path d="M20 135 Q 50 119 80 135 T 140 135" stroke="#4f8396" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.85"/>
   <!-- Bitcoin-Zeichen -->
   <text x="80" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="bold" fill="#f7931a">₿</text>
 
