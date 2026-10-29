@@ -5,9 +5,16 @@ const facts = [
 	{
 		icon: CalendarDays,
 		iconClass: 'text-brand-500',
-		title: 'Jeden 1. Donnerstag',
+		title: 'Jeden 1. Mittwoch',
 		description:
-			'Monatlicher Stammtisch ab 19 Uhr – offen für alle, die Bitcoin verstehen wollen oder schon tief im Kaninchenbau stecken.',
+			'Ab 19 Uhr: Hamburg ₿itcoin Stammtisch – das Original, seit 2013. Für Bitcoin und cRypto.',
+	},
+	{
+		icon: CalendarDays,
+		iconClass: 'text-brand-500',
+		title: 'Jeden letzten Donnerstag',
+		description:
+			'Ab 19 Uhr: EINUNDZWANZIG Hamburg – Bitcoin only. Ein Deep Dive ins Rabbit Hole. 🕳🐇',
 	},
 	{
 		icon: Landmark,
@@ -32,12 +39,12 @@ export default function Facts() {
 				<div className="mx-auto max-w-2xl text-center">
 					<h2 className="text-3xl font-bold text-dusk-50 sm:text-4xl">Auf einen Blick</h2>
 					<p className="mt-4 text-dusk-300">
-						Hamburg hat viele Bitcoin-Treffen – ₿rook6 ist das leiseste, dunkelste
+						Hamburg hätte gerne viele Bitcoin-Treffen – ₿rook6 ist aber jetzt schon das leiseste, dunkelste
 						und am härtesten verankerte davon.
 					</p>
 				</div>
 
-				<div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+				<div className="mt-14 grid gap-8 sm:grid-cols-2">
 					{facts.map(({ icon: Icon, iconClass, title, description }) => (
 						<div
 							key={title}

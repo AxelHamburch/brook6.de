@@ -44,7 +44,7 @@ export default function Hero() {
 				>
 					<span className="inline-flex items-center gap-2 font-semibold">
 						<CalendarDays className="text-brand-500" size={18} />
-						Jeden 1. Donnerstag im Monat
+						Jeden 1. Mittwoch &amp; letzten Donnerstag im Monat, ab 19 Uhr
 					</span>
 					<span className="inline-flex items-center gap-2 font-semibold">
 						<MapPin className="text-brook-400" size={18} />
